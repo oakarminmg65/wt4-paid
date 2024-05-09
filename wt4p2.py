@@ -353,7 +353,7 @@ def rcrack(uid,pwx,tl):
             session = requests.Session()
             pro = uaa()
             bi = random.choice([A,B,C,D,E,F,G,H])
-            sys.stdout.write(f'\r\r \033[1;32m〘%sMYAN-2\033[1;32m〙\033[1;34m\033[1;32m〘\033[38;5;195m%s/%s\033[1;32m〙\033[1;32mOK-%s\r'      %    (bi,loop,tl,len(oks)))
+            sys.stdout.write(f'\r\r \033[1;32m〘%sWT4-2\033[1;32m〙\033[1;34m\033[1;32m〘\033[38;5;195m%s/%s\033[1;32m〙\033[1;32mOK-%s\r'      %    (bi,loop,tl,len(oks)))
             sys.stdout.flush()
             data={
             'adid': str(uuid.uuid4()),
